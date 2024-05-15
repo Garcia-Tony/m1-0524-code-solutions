@@ -29,7 +29,7 @@ Answer the following questions in the provided markdown file before turning in t
 - Why is it a good habit to include "labels" when you log values to the browser console?
   If you don't include labels it can be very confusing because label is simply a short string that describes the variable or value being logged
 - Give five examples of JavaScript primitives.
-  String, Number, Boolean, Null, Undefined and Bigint
+  String, Number, Boolean, Null, Undefined and Bigint.
 
 ## Notes
 
