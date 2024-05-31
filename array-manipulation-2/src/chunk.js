@@ -2,12 +2,11 @@
 /* exported chunk */
 function chunk(array, size) {
   const chunks = [];
-  for (let i = 0; i < array.length; i += size) {
-    const chunk = [];
-    for (let j = 0; j < size && i + j < array.length; j++) {
-      chunk.push(array[i + j]);
+  for (let i = 0; i < chunk.length; i++) {
+    for (let i = 0; i < size; i++) {
+      chunks.push(array[i]);
     }
-    chunks.push(chunk);
+    chunks.push(array[i]);
   }
   return chunks;
 }
