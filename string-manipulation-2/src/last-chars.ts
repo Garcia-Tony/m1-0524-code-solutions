@@ -7,6 +7,6 @@ function lastChars(length: number, string: string): any {
   if (string.length < length) {
     return string;
   } else {
-    return char;
+    return char
   }
 }
