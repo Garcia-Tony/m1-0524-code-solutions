@@ -8,5 +8,6 @@ function pick(source, keys) {
       picks[key] = source[key];
     }
   }
+
   return picks;
 }

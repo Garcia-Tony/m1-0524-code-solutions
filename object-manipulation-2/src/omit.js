@@ -2,9 +2,8 @@
 /* exported omit */
 function omit(source, keys) {
   const omits = {};
-  for (const i in keys) {
-    const key = keys[i];
-    if (!(key in source && source[key] !== undefined)) {
+  for (const key in source) {
+    if (!keys.includes(key)) {
       omits[key] = source[key];
     }
   }
