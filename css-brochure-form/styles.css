@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  color: orangered;
+}
+
+label {
+  margin-right: 250px;
+  font-size: 10px;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+input {
+  padding-left: 10px;
+  font-size: 12px;
+  font-family: AtlasGrotesk, sans-serif;
+  width: 350px;
+  height: 33px;
+  border-radius: 5px;
+  border-width: thin;
+}
+
+select {
+  padding-left: 2px;
+  width: 350px;
+  height: 33px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+button {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  margin-left: 250px;
+  margin-top: 10px;
+  background-color: orangered;
+  color: white;
+  width: 75px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+}
+
+.whole {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.email {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.name {
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.location {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.question {
+  margin-top: 10px;
+  margin-left: 235px;
+}
