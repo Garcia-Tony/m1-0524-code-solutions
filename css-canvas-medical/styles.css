@@ -1,0 +1,278 @@
+body {
+  font-family: Avenir, sans-serif;
+}
+
+p {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.column-one-eighth {
+  width: calc(100% / 8);
+  padding-top: 20px;
+  color: gray;
+}
+
+.column-five-eighth {
+  width: calc(500% / 8);
+  padding-left: 100px;
+}
+
+.column-one {
+  text-align: center;
+  width: 100%;
+}
+
+.column-one-halve {
+  width: calc(100% / 1);
+}
+
+.part-one {
+  width: calc(100% / 1);
+  padding-right: 250px;
+}
+
+.part-two {
+  width: calc(100% / 1);
+}
+
+.row {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.container {
+  border-bottom: 1px solid gray;
+}
+
+.container-two {
+  padding-top: 100px;
+}
+
+.holder {
+  background: linear-gradient(transparent, rgba(90, 87, 87, 0.821));
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  margin-left: 95px;
+  margin-top: 20px;
+}
+
+.row-two {
+  width: 90%;
+  height: 100%;
+  background-size: cover;
+  text-align: start;
+  font-size: 35px;
+  background-image: url('images/hero.jpg');
+  margin-left: 95px;
+  padding-bottom: 100px;
+}
+
+.over {
+  width: calc(100% / 2);
+  padding-top: 10px;
+  color: white;
+  margin-left: 60px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.border {
+  background-color: #294464ff;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  height: 60px;
+  padding-top: 1px;
+}
+
+.button {
+  background-color: #294464ff;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px;
+  height: 70px;
+  padding-top: 15px;
+  font-family: Avenir, sans-serif;
+}
+
+.border-two {
+  background-color: #fafafaff;
+  width: 1800px;
+  padding-top: 10px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+}
+
+.row-three {
+  font-size: 50px;
+  padding-top: 100px;
+  position: absolute;
+}
+
+.row-three p {
+  font-size: 20px;
+  padding-left: 150px;
+  color: gray;
+}
+
+.row-three h1 {
+  font-size: 50px;
+  padding-left: 100px;
+  color: gray;
+}
+
+.row-four {
+  width: calc(100% / 2);
+  display: flex;
+  padding-top: 350px;
+  padding-right: 20px;
+}
+
+.row-four h2 {
+  font-size: 30px;
+  padding-top: 20px;
+  white-space: nowrap;
+  padding-right: 50px;
+  color: gray;
+}
+
+.row-five {
+  display: flex;
+}
+
+.part-three h1 {
+  font-size: 40px;
+  padding-left: 100px;
+  font-family: 'Tiempos Headline', sans-serif;
+  color: gray;
+}
+
+.part-three p {
+  font-size: 20px;
+  padding-left: 100px;
+  color: gray;
+}
+
+.part-four {
+  padding-left: 950px;
+  padding-top: 40px;
+}
+
+.button-two {
+  background-color: #294464ff;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px;
+  height: 70px;
+  padding-top: 18px;
+  font-family: Avenir, sans-serif;
+  font-size: 30px;
+}
+
+.border-three {
+  background-color: #525351ff;
+  width: 1800px;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+}
+
+.column-one h1 {
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
+.column-one-fourth {
+  width: calc(400% / 4);
+}
+
+.column-two-fourth {
+  width: calc(400% / 4);
+  padding-left: 200px;
+}
+
+.column-three-fourth {
+  width: calc(100% / 8);
+}
+
+.column-three-fourth img {
+  width: 230px;
+  padding: 10px;
+}
+
+.part-six {
+  padding-left: 400px;
+  padding-top: 150px;
+}
+
+.part-seven {
+  padding-top: 150px;
+}
+
+.part-six h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.part-six p {
+  font-size: 25px;
+  color: white;
+  padding-top: 10px;
+}
+
+.part-seven h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.part-seven p {
+  font-size: 25px;
+  color: white;
+  padding-top: 10px;
+}
+
+.part-five p {
+  font-size: 20px;
+  color: white;
+}
+
+.row-six {
+  display: flex;
+  padding-right: 20px;
+}
+
+.part-five {
+  padding-right: 30px;
+  padding-top: 100px;
+}
+
+.border-four {
+  background-color: #fafafaff;
+  width: 1800px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+.row-seven {
+  display: flex;
+}
+
+.column-one-two {
+  width: calc(100% / 7);
+  padding-top: 50px;
+}
+
+.column-one-two p {
+  font-size: 25px;
+  color: gray;
+}
