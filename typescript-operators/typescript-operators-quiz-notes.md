@@ -20,7 +20,7 @@ Answer the following questions in the provided markdown file before turning in t
   Optional Chaining allows you to access nested properties of an object. When you're trying to access properties that are likely undefined, attempting to define it.
 
 - What is `...` (spread) syntax? How do you use it with arrays and objects?
-  The spread syntax is used to access an array or object and be able to be placed in a new different array or object as well as be able to add onto that new array or object.
+  The (spread) syntax is used to access an array or object and be able to be placed in a new different array or object as well as be able to add onto that new array or object.
 
 - What data types can be spread into an array? Into an object?
   You can spread array data to an array but not object data, and you can spread object data into an object but not array data.
