@@ -4,10 +4,10 @@ const newPrice = prices.map(price => ({
   price: price,
   salePrice: price / 2
 }));
-console.log(newPrice);
+console.log('Price objects', newPrice);
 
 
 const other = prices.map((price) => (
 "$" + price.toFixed(2)
 ));
-console.log(other);
+console.log('Formatted prices', other);
